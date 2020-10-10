@@ -34,7 +34,7 @@ function setup() {
 	stone = new Stone(200,500,40,40);
 
 	mango1=new Mango(500,300,20);
-	mango2=new Mango(600,300,20);
+	//mango2=new Mango(600,300,20);
 	mango3=new Mango(640,340,20);
 	mango4=new Mango(600,250,20);
 	mango5=new Mango(650,250,20);
@@ -63,7 +63,7 @@ function draw() {
   stone.display();
 
   mango1.display();
-  mango2.display();
+  //mango2.display();
   mango3.display();
   mango4.display();
   mango5.display();
@@ -76,7 +76,7 @@ function draw() {
   sling.display();
 
   detectCollision(stone,mango1);
-  detectCollision(stone,mango2);
+  //detectCollision(stone,mango2);
   detectCollision(stone,mango3);
   detectCollision(stone,mango4);
   detectCollision(stone,mango5);
