@@ -14,7 +14,7 @@ var mango6,mango7,mango8,mango9,mango10;
 
 function preload()
 {
-	boyImage=loadImage("images/boy.png");	
+	boyImage=loadImage("Images/boy.png");	
 }
 
 function setup() {
