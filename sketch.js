@@ -50,12 +50,11 @@ function setup() {
   
 }
 
-
 function draw() {
   rectMode(CENTER);
   background(125);
   
-  textSize(25);
+  //textSize(25);
   text("Press Space to get a second Chance to Play!!",50 ,50);
     
   ground.display();
