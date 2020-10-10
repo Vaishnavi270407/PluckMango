@@ -30,7 +30,8 @@ function setup() {
 
 	boy=createSprite(270,440,50,50);
 	boy.addImage(boyImage);
-	boy.scale=0.125
+  boy.scale=0.125;
+  
 	stone = new Stone(200,500,40,40);
 
 	mango1=new Mango(500,300,20);
